@@ -4,11 +4,16 @@ html, body {
   background: #fafafa
 }
 
+.boards-container{
+  background-color: #fafafa;
+}
+
 .big-container{ 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font: black;
 }
 
 .links{
@@ -54,6 +59,7 @@ html, body {
 
 .bar-y{
   font-family: "Courier New", Courier, monospace;
+  color: black;
 }
 
 .row{
