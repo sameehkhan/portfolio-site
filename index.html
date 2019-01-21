@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Spectral by HTML5 UP</title>
+		<title>Sameeh Khan</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -30,10 +30,10 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="#one">About Me</a></li>
+											<li><a href="#two">Projects</a></li>
+											<li><a href="#visualizer">NBA Visualizer</a></li>
+											<!-- <li><a href="#">Log In</a></li> -->
 										</ul>
 									</div>
 								</li>
@@ -45,7 +45,7 @@
 					<section id="banner">
 						<div class="inner">
 							<h2>Sameeh Khan</h2>
-							<p>SOFTWARE ENGINEER<br /></p>
+							<p> < SOFTWARE ENGINEER /> <br /></p>
 							<!-- <ul class="actions special">
 								<li><a href="#" class="button primary">Activate</a></li>
 							</ul> -->
@@ -77,27 +77,31 @@
 						<section class="spotlight">
 							<div class="image"><img src="images/instapx-gif.gif" alt="" /></div><div class="content">
 								<h2>Instapx | <i>(React/Redux, Javascript, Ruby on Rails, AWS, PostgreSQL)</i></h2>
-								<p>Full stack web application inspired by Instagram</p>
+								<p>Full stack web application inspired by Instagram where users can sign up, post images, and follow their friends.</p>
 							</div>
 						</section>
 						<section class="spotlight" style='background: #505393;'>
 							<div class="image"><img src="images/rise.gif" alt="" /></div><div class="content">
 								<h2>Rise | <i>(React/Redux, MongoDB, Node.js, Express)</i></h2>
-								<p>An app to help people get jobs and promotions by tracking their goals and achievements.</p>
+								<p>An app to help people get jobs and promotions by tracking their goals and achievements. We send you weekly reminders to keep your career on track.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/nbavisualizer.gif" alt="" /></div><div class="content">
 								<h2>Boards <i>(React/Redux, MongoDB, Node.js, Express)</i>
 								sed condimentum</h2>
-								<p>NBA data visualization for </p>
+								<p>Frontend NBA data visualization for rendering NBA advanced statistics. 
+									<div><a href="#visualizer" class="more scrolly">View </a></div>
+									<div><a href="github.com" class="more scrolly"> Github</a></div>
+								</p>
 							</div>
 						</section>
+
 					</section>
 
 				<!-- Three -->
-					<section class="boards-container">
-						<div class="inner">
+					<section class="boards-container" style='width: 100%'>
+						<div class="inner" style='width: 100%'>
 							<div class='big-container'>
 								<!-- <div class='link-container'>
 							    <div class='links'>
@@ -105,8 +109,8 @@
 							      <div><a href='https://www.linkedin.com/in/sameeh-khan-877657b4/' class='link-tag'><img class='linkedin' src='./public/images/linkedin.png' /></a></div>
 							    </div>
 							    </div> -->
-								<div class='container'>
-									<div class='row'>
+								<div id='visualizer' class='container' style='width: 100%'>
+									<div class='row' style='width: 100%'>
 										<div class='buttons'>
 										</div>
 										<div id='chart-area'></div>
