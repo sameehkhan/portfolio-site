@@ -2830,7 +2830,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 label {
@@ -4024,4 +4024,28 @@ input, select, textarea {
 	.icon.fa.github{
 		width: 50px;
 		height: auto;
+	}
+
+	.inner svg{
+		width: 64px;
+		height: auto;
+	}
+
+	.tools-tech img{
+		height: 120px;
+		width: auto;
+	}
+
+	.tools-tech {
+		width: 100%;
+		display: flex;
+		/* align-content: space-between; */
+		justify-content: space-between;
+		color: white !important;
+	}
+
+	.tools-container{
+		display: flex;
+		justify-content: center;
+		padding-bottom: 100px;
 	}

@@ -104,7 +104,7 @@ function barchart() {
             }
         });
 
-        // console.log(stats);
+        console.log(stats);
 
         d3.interval(function () {
             update(stats);
