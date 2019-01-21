@@ -4032,8 +4032,9 @@ input, select, textarea {
 	}
 
 	.tools-tech img{
-		height: 120px;
+		height: 110px;
 		width: auto;
+		background: black;
 	}
 
 	.tools-tech {
