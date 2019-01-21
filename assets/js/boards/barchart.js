@@ -7,10 +7,10 @@ function barchart() {
     // // console.log(lebron)
     // NBA.stats.playerInfo({ PlayerID: lebron }).then(console.log);
 
-    var margin = { left: 100, right: 20, top: 180, bottom: 110 };
+    var margin = { left: 100, right: 20, top: 280, bottom: 110 };
 
     var width = 1080 - margin.left - margin.right;
-    var height = 630 - margin.top - margin.bottom;
+    var height = 730 - margin.top - margin.bottom;
 
     // Tooltip 
 
