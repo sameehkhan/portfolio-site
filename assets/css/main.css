@@ -4035,6 +4035,7 @@ input, select, textarea {
 		height: 110px;
 		width: auto;
 		background: black;
+		border-radius: 4px;
 	}
 
 	.tools-tech {
@@ -4049,4 +4050,14 @@ input, select, textarea {
 		display: flex;
 		justify-content: center;
 		padding-bottom: 100px;
+	}
+
+	.fa-envelope, .fa-github, .fa-linkedin {
+		/* color: red; */
+		font-size: 60px;
+	}
+	
+	.fa-envelope, .fa-github, .fa-linkedin {
+		/* color: red; */
+		font-size: 60px;
 	}
