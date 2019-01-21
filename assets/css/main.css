@@ -4056,8 +4056,7 @@ input, select, textarea {
 		/* color: red; */
 		font-size: 60px;
 	}
-	
-	.fa-envelope, .fa-github, .fa-linkedin {
-		/* color: red; */
-		font-size: 60px;
+
+	.fa-envelope:hover, .fa-github:hover, .fa-linkedin:hover {
+		color: black;
 	}
