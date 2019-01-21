@@ -60,6 +60,7 @@ html, body {
 .bar-y{
   font-family: "Courier New", Courier, monospace;
   color: black;
+  font-size: 16px;
 }
 
 .row{
@@ -198,7 +199,16 @@ html, body {
 
 /* LOGO LINKS */
 
-.git, .linkedin, .nba-scatter{
+.git, .linkedin {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.nba-scatter{
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -209,8 +219,8 @@ html, body {
 }
 
 .git:hover, .git:focus, .git:active {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* .nba-scatter:hover, .nba-scatter:focus, .nba-scatter:active {
@@ -219,12 +229,12 @@ html, body {
 } */
 
 .linkedin:hover, .linkedin:focus, .linkedin:active {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .git, .linkedin{
-  height: 45px;
+  height: 60px;
   width: auto;
   
 }
