@@ -4033,7 +4033,7 @@ input, select, textarea {
 
 	.tools-tech img{
 		height: 110px;
-		width: auto;
+		width: 110px;
 		background: black;
 		border-radius: 4px;
 	}
@@ -4041,9 +4041,18 @@ input, select, textarea {
 	.tools-tech {
 		width: 100%;
 		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
 		/* align-content: space-between; */
-		justify-content: space-between;
+		/* justify-content: space-between; */
 		color: white !important;
+	}
+
+	.tech-row{
+		padding-bottom: 30px;
+		display: flex; 
+		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 
 	.tools-container{
